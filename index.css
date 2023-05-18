@@ -1184,7 +1184,7 @@ section.work{
     text-align: center;
 }
 section.work button.learn{
-    margin: 40px auto;
+    margin: 20px auto;
     font-size: 21px;
     width: 300px;
     padding: 13px 18px;
@@ -1820,6 +1820,60 @@ footer div.thumb{
         width: 90%;
     
     }
+    
+    
+
+}
+@media screen and (max-width:360px) {
+    header .button .button4{
+        display: none;
+    }
+    header .button .button5{
+        padding: 14px 0px 14px 0px;
+    }
+
+    header .navbar ul li.main a{
+        display: block;
+        margin-right: -100px;
+    }
+    section.Javascript div.text h1{
+        font-size: 3rem;
+    }
+    section.languages{
+        display: block;
+        padding: 5rem 1rem ;
+        gap: 10rem;
+        background-color: #282A35;
+    }
+    
+    section.languages div.lang{
+        flex: 1 1 30rem;
+        text-align: center;
+        padding: 3rem 3rem;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+
+    section.work button.learn{
+        margin-bottom: 40px;
+        margin-top: 20px;
+       
+    }
+
+    section.template button.button1{
+        width: 200px;
+
+    }
+
+    section.kickstart img{
+        margin-top: -700px;
+        height: 100px;
+        width: 100px;
+        margin-right: -30px;
+    }
+    
+    
+
     
     
 
